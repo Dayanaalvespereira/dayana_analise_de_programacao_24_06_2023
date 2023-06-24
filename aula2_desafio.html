@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=,initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <Script>
+    alert("trocando de valores das variaveis");
+    let primeira  = prompt("Digite o valor da primeira variável: ");
+    let segunda = prompt("Digite o valor da segunda variável: ");
+
+    console.log("Valores originais: ")
+    console.log("primeira: ",primeira)
+    console.log("segunda: ",segunda)
+
+    let aux = primeira;
+    primeira = segunda;
+    segunda = aux;
+    
+    console.log("primeira: ",primeira)
+    console.log("segunda: ",segunda)
+   </Script>
+</body>
+</html>
